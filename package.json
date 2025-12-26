@@ -1,0 +1,23 @@
+{
+  "name": "nanotrak-blockchain",
+  "version": "1.0.0",
+  "description": "The idea is to take a scan data from the spreadsheet (CSV) and turn each row into a structured JSON, generate a cryptographic hash for that record, and store that hash on a blockchain. We to make the scan records like if someone changes the scan data later, the hash changes, and verification will fail.",
+  "main": "csv_to_json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kananahmadov2001/NanoTrak-Blockchain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kananahmadov2001/NanoTrak-Blockchain/issues"
+  },
+  "homepage": "https://github.com/kananahmadov2001/NanoTrak-Blockchain#readme",
+  "dependencies": {
+    "csv-parse": "^6.1.0"
+  }
+}
