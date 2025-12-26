@@ -1,12 +1,13 @@
 # NanoTrak-Blockchain
 
 ## Idea
-
 The idea is to take a scan data from the spreadsheet (CSV) and turn each row into a structured JSON, generate a cryptographic hash for that record, and store that hash on a blockchain. We to make the scan records like if someone changes the scan data later, the hash changes, and verification will fail.
+
 ---
 
 ## What blockchain are we using?
 For the MVP, the idea is using Hardhat; because it runs a local blockchain on your computer so development is free and fast. Later, the same idea can be deployed to a real chain (maybe Polygon or Ethereum), but this repo focuses on the local prototype first.
+
 ---
 
 ## What the given data will look like
